@@ -131,6 +131,7 @@ body {
   text-decoration: none;
 }
 .first-background {
+    background-image: url(../images/background.jpg);
   background-color: var(--background-color);
   color: var(--white-content);
   padding-top: 200px;
