@@ -243,7 +243,7 @@ body {
 .person-box {
   background-color: var(--white-content);
   width: 270px;
-  height: 368px;
+  /* height: 368px; */
   display: flex;
   flex-wrap: wrap;
   margin-inline: 10px;
@@ -407,7 +407,11 @@ body {
 }
 .link:hover svg {
   color: var(--logo-color);
-  --color1: var(var(--logo-color));
+  --color5: var(--logo-color);
+  --color4: var(--logo-color);
+  --color3: var(--logo-color);
+  --color2: var(--logo-color);
+  --color1: var(--logo-color);
 }
 .icon-background {
   width: 270px;
@@ -419,13 +423,16 @@ body {
   padding-bottom: 30px;
 }
 
-
 .clients-icon {
   width: 170px;
   height: 92px;
-  border: 1px solid #AFB1B8;
+  border: 1px solid #afb1b8;
   margin-right: 30px;
   border-radius: 4px;
-display: flex;
-justify-content: center;
+  display: flex;
+  justify-content: center;
+}
+.social-media-icon {
+  fill: #AFB1B8;
+
 }
