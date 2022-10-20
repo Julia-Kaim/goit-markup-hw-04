@@ -131,7 +131,7 @@ body {
   text-decoration: none;
 }
 .first-background {
-    background-image: url(../images/background.jpg);
+  background-image: url(../images/background.jpg);
   background-color: var(--background-color);
   color: var(--white-content);
   padding-top: 200px;
@@ -406,19 +406,26 @@ body {
   margin-right: 8px;
 }
 .link:hover svg {
-fill: #2196F3;
-
+  color: var(--logo-color);
+  --color1: var(var(--logo-color));
 }
 .icon-background {
   width: 270px;
 
-  background-color: #F5F4FA;
+  background-color: #f5f4fa;
   display: flex;
   justify-content: center;
   padding-top: 30px;
   padding-bottom: 30px;
 }
-.des-icon {
-  background-color: #F5F4FA;
 
+
+.clients-icon {
+  width: 170px;
+  height: 92px;
+  border: 1px solid #AFB1B8;
+  margin-right: 30px;
+  border-radius: 4px;
+display: flex;
+justify-content: center;
 }
