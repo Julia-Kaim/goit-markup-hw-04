@@ -407,6 +407,7 @@ body {
 }
 .link:hover svg {
   color: var(--logo-color);
+  stroke: var(--logo-color);
   --color5: var(--logo-color);
   --color4: var(--logo-color);
   --color3: var(--logo-color);
@@ -433,6 +434,16 @@ body {
   justify-content: center;
 }
 .social-media-icon {
-  fill: #AFB1B8;
+  color:#AFB1B8;
 
+  --color3: #AFB1B8;
+;
+  margin-inline: 20px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+
+}
+
+.link-social:hover {
+  color: var(--header-color);
 }
