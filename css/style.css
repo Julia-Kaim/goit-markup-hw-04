@@ -444,6 +444,11 @@ body {
 
 }
 
-.link-social:hover {
-  color: var(--header-color);
+.link-social:hover svg {
+  color: var(--logo-color);
+  --color3: var(--logo-color);
+}
+.link-clients:hover svg {
+  color: var(--logo-color);
+  --color1: var(--logo-color);
 }
