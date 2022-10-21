@@ -452,3 +452,13 @@ body {
   color: var(--logo-color);
   --color1: var(--logo-color);
 }
+.social-title
+{
+  font-family: Roboto;
+font-size: 14px;
+font-weight: 700;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-align: left;
+color: var(--white-content)
+}
