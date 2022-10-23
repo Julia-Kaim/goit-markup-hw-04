@@ -450,6 +450,9 @@ body {
   display: flex;
   justify-content: center;
 }
+.clients-icon:hover {
+  color: var(--logo-color);
+}
 .social-media-icon {
   color: #afb1b8;
 
