@@ -133,7 +133,7 @@ body {
 .first-background {
   background: linear-gradient(59deg, rgba(0, 0, 0, 0.422) ,rgba(35, 32, 32, 0.559)), url(../images/background.jpg);
   background-size: cover;
-  /* background-image: linear-gradient(59deg, rgba(0, 0, 0, 0.052) ,rgba(217, 217, 217, 0.896)); */
+  
   color: var(--white-content);
   padding-top: 200px;
   height: 450px;
@@ -469,8 +469,10 @@ font-weight: 700;
 line-height: 16px;
 letter-spacing: 0.03em;
 text-align: left;
-color: var(--white-content)
+color: var(--white-content);
 }
 .social-footer {
-
+margin-left: 350px;
+margin-bottom: 200px;
+display: inline;
 }
