@@ -443,7 +443,7 @@ body {
 
 .clients-icon {
   width: 170px;
-  height: 92px;
+  /* height: 92px; */
   border: 1px solid #afb1b8;
   margin-right: 30px;
   border-radius: 4px;
@@ -451,7 +451,7 @@ body {
   justify-content: center;
 }
 .clients-icon:hover {
-  color: var(--logo-color);
+  border: 1px solid var(--logo-color);
 }
 .social-media-icon {
   color: #afb1b8;
