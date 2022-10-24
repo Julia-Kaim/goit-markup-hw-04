@@ -462,8 +462,8 @@ body {
 }
 
 .link-social:hover svg {
-  color: var(--logo-color);
-  --color3: var(--logo-color);
+  color: var(--white-content);
+  --color3: var(--white-content);
   border-radius: 50%;
   background-color: var(--logo-color);
 }
