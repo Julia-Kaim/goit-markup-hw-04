@@ -294,7 +294,6 @@ body {
   width: 1200px;
   margin: 0px;
   display: flex;
-  
 }
 .logo-footer {
   display: block;
@@ -465,6 +464,8 @@ body {
 .link-social:hover svg {
   color: var(--logo-color);
   --color3: var(--logo-color);
+  border-radius: 50%;
+  background-color: var(--logo-color);
 }
 .link-clients:hover svg {
   color: var(--logo-color);
@@ -481,7 +482,7 @@ body {
 }
 .social-footer {
   margin-left: 50px;
-margin-top: 50px;
+  margin-top: 50px;
   display: flex;
   flex-direction: column;
 }
